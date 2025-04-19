@@ -32,6 +32,15 @@ This project integrates a Flutter Web Admin Panel, Node.js + MongoDB Backend, an
 
 ## ⚙️ Setup Guide
 
+### 📦 Download Pretrained Model
+Please download the **FaceNet pretrained model** manually from the following Google Drive link and place it in the correct scanner directory:
+
+🔗 [Download FaceNet Model (Google Drive)](https://drive.google.com/drive/folders/1Y_GFgJyuPDmquWJlmc_6I4fQORA9EZWb?usp=sharing)
+
+> Save the model folder as `facenet_model` inside the `FaceXScanner` directory.
+
+---
+
 ### 🔧 Backend Setup
 
 ```bash
