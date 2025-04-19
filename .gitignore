@@ -1,0 +1,30 @@
+# 🚫 Ignore heavy model and environment files
+FaceXScanner/facenet_model/
+FaceXScanner/facenet_model/variables/
+FaceXScanner/facenet_model/variables/variables.data-00000-of-00001
+FaceXScanner/facenet_model/saved_model.pb
+
+FaceXScanner/facex-env/
+FaceXScanner/facex-env/Lib/site-packages/tensorflow/
+FaceXScanner/facex-env/Lib/site-packages/cv2/
+FaceXScanner/facex-env/Lib/site-packages/clang/
+FaceXScanner/facex-env/Lib/site-packages/numpy.libs/
+FaceXScanner/facex-env/Lib/site-packages/grpc/
+FaceXScanner/facex-env/Lib/site-packages/**/__pycache__/
+
+# Flutter build outputs
+FaceXfrontend/facex/build/
+
+# Node or Python environment
+node_modules/
+.env
+*.pyc
+__pycache__/
+
+# VSCode/IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
